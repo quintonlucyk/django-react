@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\quint\\.virtualenvs\\django-react-b1jrgsjT\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\quint\\.virtualenvs\\django-react-b1jrgsjT\\Scripts\\python.exe",
+    "python.formatting.provider": "autopep8"
 }
