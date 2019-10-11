@@ -37,13 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',  # custom added from here on
-    'rest_framework',
-    'todo',
+    'corsheaders',            # add this
+    'rest_framework',         # add this
+    'todo',  # add this
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',  # custom
+    'corsheaders.middleware.CorsMiddleware',    # add this
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -124,6 +124,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # whitelist localhost:3000 because that's where frontend will be served
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'
-)
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    'http://localhost:8000',
+    'http://localhost:8080',
+]
