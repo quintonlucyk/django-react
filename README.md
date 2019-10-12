@@ -1,10 +1,10 @@
 # django-react
 
-> python manage.py;
+> python manage.py ...;
 
 commands from ./backend (parent of two)
 
 run commands:
 
-> npm start
-> yarn start
+> npm start;
+> yarn start;

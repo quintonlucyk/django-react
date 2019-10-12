@@ -1,0 +1,4 @@
+error:
+ModuleNotFoundError: No module named 'corsheaders'
+fix:
+PS C:\Users\quint\Code\django-react\django-react\backend> pip install django-cors-headers 
